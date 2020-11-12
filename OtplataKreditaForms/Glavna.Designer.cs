@@ -96,7 +96,8 @@
 			this.btnIzracunaj.Size = new System.Drawing.Size(498, 23);
 			this.btnIzracunaj.TabIndex = 6;
 			this.btnIzracunaj.Text = "Izračunaj";
-			this.btnIzracunaj.UseVisualStyleBackColor = true;			
+			this.btnIzracunaj.UseVisualStyleBackColor = true;
+			this.btnIzracunaj.Click += new System.EventHandler(this.btnIzracunaj_Click);
 			// 
 			// label4
 			// 

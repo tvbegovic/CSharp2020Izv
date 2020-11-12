@@ -31,7 +31,16 @@ namespace OtplataKreditaForms
 			{
 				throw new ArgumentOutOfRangeException("Godina mora biti u rasponu 3-30");
 			}
+			var r = Kamatnjak(stopa);
+			var n = brojGodina * 12;
 
+			anuitet = iznos * Math.Pow(r, n) * (r - 1) / (Math.Pow(r, n) - 1);
+			iznosKamata = anuitet * n - iznos;
+		}
+
+		public double Kamatnjak(double stopa)
+		{
+			return 1 + stopa / 12 / 100;
 		}
 
 
@@ -40,7 +49,36 @@ namespace OtplataKreditaForms
 
 		}
 
-		
-
+		private void btnIzracunaj_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				var ok = double.TryParse(txtGlavnica.Text, out double glavnica);
+				if(!ok)
+				{
+					MessageBox.Show("Pogrešan format glavnice");
+					return;
+				}
+				ok = double.TryParse(txtStopa.Text, out double stopa);
+				if (!ok)
+				{
+					MessageBox.Show("Pogrešan format stope");
+					return;
+				}
+				ok = int.TryParse(txtGodina.Text, out int godina);
+				if (!ok)
+				{
+					MessageBox.Show("Pogrešan format broja godina");
+					return;
+				}
+				IzracunParametara(glavnica, stopa, godina, out double anuitet, out double iznosKamata);
+				lblAnuitet.Text = anuitet.ToString("N2");
+				lblUkupnoKamate.Text = iznosKamata.ToString("N2");
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show($"Dogodila se pogreška. Tekst: {ex.Message}");
+			}
+		}
 	}
 }

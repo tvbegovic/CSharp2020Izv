@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IzracunKamata", "IzracunKam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtplataKreditaForms", "OtplataKreditaForms\OtplataKreditaForms.csproj", "{42855687-2550-4FF5-A687-87A446084F9C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brojevi", "Brojevi\Brojevi.csproj", "{38636A56-DD03-4D61-A212-01D9A72C0482}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{42855687-2550-4FF5-A687-87A446084F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42855687-2550-4FF5-A687-87A446084F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42855687-2550-4FF5-A687-87A446084F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38636A56-DD03-4D61-A212-01D9A72C0482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38636A56-DD03-4D61-A212-01D9A72C0482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38636A56-DD03-4D61-A212-01D9A72C0482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38636A56-DD03-4D61-A212-01D9A72C0482}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
