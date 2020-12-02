@@ -60,7 +60,7 @@
 			this.btnDodaj.TabIndex = 1;
 			this.btnDodaj.Text = "Dodaj riječ na kraj";
 			this.btnDodaj.UseVisualStyleBackColor = true;
-			
+			this.btnDodaj.Click += new System.EventHandler(this.btnDodaj_Click);
 			// 
 			// txtViseRijeci
 			// 
@@ -80,7 +80,7 @@
 			this.btnDodajVise.TabIndex = 1;
 			this.btnDodajVise.Text = "Dodaj";
 			this.btnDodajVise.UseVisualStyleBackColor = true;
-			
+			this.btnDodajVise.Click += new System.EventHandler(this.btnDodajVise_Click);
 			// 
 			// lstPopis
 			// 
@@ -101,7 +101,7 @@
 			this.btnUkloni.TabIndex = 3;
 			this.btnUkloni.Text = "Ukloni";
 			this.btnUkloni.UseVisualStyleBackColor = true;
-			
+			this.btnUkloni.Click += new System.EventHandler(this.btnUkloni_Click);
 			// 
 			// btnDodajNaPos
 			// 
@@ -112,7 +112,7 @@
 			this.btnDodajNaPos.TabIndex = 1;
 			this.btnDodajNaPos.Text = "Dodaj riječ na poziciju";
 			this.btnDodajNaPos.UseVisualStyleBackColor = true;
-			
+			this.btnDodajNaPos.Click += new System.EventHandler(this.btnDodajNaPos_Click);
 			// 
 			// txtPozicija
 			// 
@@ -159,7 +159,7 @@
 			this.btnOcisti.TabIndex = 3;
 			this.btnOcisti.Text = "Isprazni listu";
 			this.btnOcisti.UseVisualStyleBackColor = true;
-			
+			this.btnOcisti.Click += new System.EventHandler(this.btnOcisti_Click);
 			// 
 			// Glavna
 			// 
