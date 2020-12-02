@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brojevi", "Brojevi\Brojevi.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lista", "Lista\Lista.csproj", "{CCADDDCF-6200-4E2D-A10C-8E9CDC8E4FC4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Igra_Klase", "Igra_Klase\Igra_Klase.csproj", "{BAF386EA-89BA-4043-B4EA-B6FE5D3B7FED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{CCADDDCF-6200-4E2D-A10C-8E9CDC8E4FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCADDDCF-6200-4E2D-A10C-8E9CDC8E4FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCADDDCF-6200-4E2D-A10C-8E9CDC8E4FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF386EA-89BA-4043-B4EA-B6FE5D3B7FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF386EA-89BA-4043-B4EA-B6FE5D3B7FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF386EA-89BA-4043-B4EA-B6FE5D3B7FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF386EA-89BA-4043-B4EA-B6FE5D3B7FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
